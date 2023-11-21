@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: guestbook-fe
-  namespace: team-fe 
+  namespace: argocd 
 spec:
   project: default
   source:
