@@ -11,5 +11,5 @@ spec:
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
-    namespace: frontend
+    namespace: team-fe 
 
