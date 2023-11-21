@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/mehmetdolu/gitops-team-fe.git
+    repoURL: https://github.com/argoproj/argocd-example-apps.git
     path: guestbook
     targetRevision: HEAD
   destination:
