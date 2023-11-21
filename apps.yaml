@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: bootstrap-fe
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/mehmetdolu/gitops-team-fe
+    path: .
+    targetRevision: HEAD
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: frontend
+
